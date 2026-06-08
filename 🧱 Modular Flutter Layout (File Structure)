@@ -1,0 +1,19 @@
+lib/
+  models/
+    project.dart          # Typed Project model
+  data/
+    sample_projects.dart  # Your 5 real projects
+  app/
+    portfolio_app.dart    # Material 3 + routing
+  features/
+    home/
+      home_page.dart      # Hero + 5-project grid
+    projects/
+      project_detail_page.dart  # Carousel + tags + metrics
+  shared/
+    widgets/
+      app_scaffold.dart   # SafeArea + responsive wrapper [cite:34]
+      responsive_layout.dart
+      section_title.dart
+    utils/
+      url_utils.dart      # openExternal for GitHub/Play Store [cite:34]
