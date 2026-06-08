@@ -1,0 +1,11 @@
+class Project {
+  final String title;
+  final String summary;         // Design challenge
+  final String role;
+  final String category;
+  final List<String> screenshots;
+  final String githubUrl;
+  final String playStoreUrl;
+  final List<String> techStack;  // ["Kotlin", "MVVM", "Coroutines"]
+  final List<Metric> metrics;    // [{label: "Load Time", value: "1.2s"}]
+}
